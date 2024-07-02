@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(img7.png);
+  }
+  
+  .myContainer {
+    text-align: center;
+  }
+  
+  .myDownloadBtn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .myDownloadBtn:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+  }
+  
+  .myDownloadBtn:active {
+    background-color: #1e6b8e;
+    transform: scale(0.9);
+  }
+  
